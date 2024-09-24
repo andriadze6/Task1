@@ -1,0 +1,8 @@
+.footer-conteiner{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 50%;
+  } 
+  

@@ -1,0 +1,79 @@
+.header1-conteiner{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #f1f2f4;
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    min-width: 30%;
+    margin: auto;
+}
+.header1-Buttons{
+    height: 100%;
+    margin: 0 8px;
+    padding: 6px;
+    /* color: var(--otkit-color-foreground-default); */
+    font-size: .8125rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    transition: color .3s ease-in-out;
+}
+.header2-conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 95%;
+    border-bottom: .0625rem solid #f1f2f4;
+}
+.logo-header{
+    display: flex;
+}
+.logo-header img{
+    width: 50px;
+    height: 50px;
+}
+
+/* .logoBorderDiv{
+    height: 50%;
+    border-right: .0625rem solid #f1f2f4;
+} */
+
+
+.search-Box-Div input{
+    border: none;
+    outline: none; 
+    width: 100%;
+}
+
+ .search-Box-Div{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    padding: 10px;
+    border: .0625rem solid #f1f2f4;
+    border-radius: 6px;
+ }
+ .search-Box{
+    display: flex;
+    width: 100%;
+ }
+ .search-Icon{
+    width: 20px;
+ }
+.sign-button{
+    color:#ffffff;
+    background-color: #247f9e;
+    font-size: 14px;
+    margin: 0 8px;
+    border: .0625rem #247f9e solid;
+    padding: 0 16px;
+    cursor: pointer;
+    line-height: 2rem;
+    border-radius: .1875rem;
+    transition: all .3s ease-in-out;
+    height: 32px;
+}
