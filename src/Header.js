@@ -13,7 +13,7 @@ function Header() {
         <div className='header2-conteiner'>
             <div className='logo-header'>
                 <img src={HeaderLogo}></img>
-                <h3>Book You Table</h3>
+                <h3>Shop</h3>
             </div>
             <div className='search-Box-Div'>
                 <div className='search-Box'>

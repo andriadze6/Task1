@@ -4,3 +4,55 @@
     max-height: 100%;
     object-fit: contain; /* Ensures the image maintains its aspect ratio */
 }
+.Product-Img-Div {
+    cursor: pointer
+}
+ .Img-ToSee {
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: pointer
+}
+.Img-ToSee{
+    max-height: 400px;
+    object-fit:contain
+}
+.tS{
+    display:none
+}
+.chooseColor{
+    display:none
+}
+.color-List {
+    background-color: #f9fafb;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.3s ease;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    opacity: 0;
+    visibility: visible;
+    z-index: 9;
+    align-items: center
+}
+.swiper-slide:hover .color-List {
+    visibility: visible;
+    opacity: 1;
+}
+.color-List li {
+    margin: 5px;
+}
+.product_content-header, .product_price_rating {
+    display: flex;
+    justify-content: space-between
+}
+.product_content {
+    margin: 10px;
+}
+.prductDiv{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+}
